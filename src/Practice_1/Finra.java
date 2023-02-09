@@ -34,17 +34,30 @@ public class Finra {
 
             }
 
-            if (i % 5 == 0 && i % 3==0){
+            if (i % 5 == 0 && i % 3 == 0) {
                 System.out.println("FINRA " + i);
 
-        }else{
+            } else {
                 System.out.print(i + " ");
             }
 
-    }
+        }
+
 
     }
-}
+
+
+
+
+      }
+
+
+
+
+
+
+
+
 /*
 FINRA :
 Write a method which prints out the numbers from 1 to 30 but for numbers
