@@ -15,8 +15,9 @@ public class SortArray {
 
         int[] arr = {10, 9, 8, 7};
 
+        System.out.println(sortingArray(arr));
 
-        System.out.println(Arrays.toString(sortingArrayAsc(arr)));
+        //System.out.println(Arrays.toString(sortingArrayAsc(arr)));
 
 
     }
@@ -45,7 +46,42 @@ public class SortArray {
         }
 
 
+    public static int sortingArray(int[] arr) {
+
+        int temp =0 ;
+
+        //  int result = 0;
+
+
+        for (int i = 0; i < arr.length; i++) {
+
+
+            for (int j = 0; j < arr.length; j++) {
+
+
+                if (arr[i] < arr[j]) {
+
+                    temp = arr[i];
+                    arr[i]= arr[j];
+
+                    arr[j]=temp ;
+                }
+
+
+            }
+
+
+
+        }
+        return temp;
+
     }
+
+
+}
+
+
+
         
 
 
